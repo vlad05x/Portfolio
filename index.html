@@ -217,6 +217,7 @@
     </div>
     <script>
       const menuLinks = document.querySelectorAll(".menu_link");
+      const menuButt = document.querySelectorAll(".header_button");
       const menuBtn = document.querySelector(".burger_menu");
       const menu = document.querySelector(".menu");
 
@@ -231,6 +232,11 @@
       }
 
       menuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          closeMenu();
+        });
+      });
+      menuButt.forEach((link) => {
         link.addEventListener("click", () => {
           closeMenu();
         });
