@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my portfolio in which all projects are stored and information about me is written.
+This is my portfolio in which all projects are stored and information about me is written.  
 This portfolio was developed:
 1. HTML 5
 2. CSS 3
