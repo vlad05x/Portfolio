@@ -184,7 +184,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .main__content .main_subtitle::after {
-  content: url(/images/arrow.svg);
+  content: url(../images/arrow.svg);
   margin-left: 10px;
 }
 
