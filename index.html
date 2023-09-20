@@ -51,13 +51,7 @@
               <h1 class="main_title">
                 Hello <br />
                 I’m Vlad <br />
-                <div id="typed-strings">
-                  <span>Frontend Developer</span>
-                  <span>Web Developer</span>
-                </div>
-                <div class="text-typing">
-                  <span id="typed"></span>
-                </div>
+                <span id="typed-text"></span>
               </h1>
               <p class="main_text">
                 I'm a dedicated and enthusiastic Front-end Developer who is on a
@@ -328,14 +322,17 @@
         });
       });
 
-      let typed = new Typed("#typed", {
-        // Тут id того блока, в которм будет анимация
-        stringsElement: "#typed-strings", // Тут id блока из которого берем строки для анимации
-        typeSpeed: 100, // Скорость печати
-        startDelay: 500, // Задержка перед стартом анимации
-        backSpeed: 50, // Скорость удаления
-        loop: true, // Указываем, повторять ли анимацию
-      });
+      var options = {
+        strings: [
+          "Frontend Developer"],
+        typeSpeed: 80, 
+        backSpeed: 25, 
+        startDelay: 1000, 
+        backDelay: 1000, 
+        loop: true, 
+      };
+
+      var typed = new Typed("#typed-text", options);
     </script>
   </body>
 </html>
