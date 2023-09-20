@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/adapt.css" />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="shortcut icon" href="./images/logoV.svg" type="image/svg">
+    <link rel="shortcut icon" href="./images/logoV.svg" type="image/svg" />
   </head>
   <body>
     <div class="wrapper">
@@ -32,7 +32,9 @@
                 <a href="#portfolio1" class="menu_link">Portfolio</a>
               </li>
             </ul>
-            <button class="header_button"><a href="#contact1">Contact</a></button>
+            <button class="header_button">
+              <a href="#contact1">Contact</a>
+            </button>
           </nav>
           <div class="burger_menu">
             <span></span>
@@ -49,7 +51,13 @@
               <h1 class="main_title">
                 Hello <br />
                 I’m Vlad <br />
-                Frontend developer
+                <div id="typed-strings">
+                  <span>Frontend Developer</span>
+                  <span>Web Developer</span>
+                </div>
+                <div class="text-typing">
+                  <span id="typed"></span>
+                </div>
               </h1>
               <p class="main_text">
                 I'm a dedicated and enthusiastic Front-end Developer who is on a
@@ -99,13 +107,30 @@
             <div class="About_content">
               <h1 class="title" id="about1">About me</h1>
               <p class="about_text">
-                Hello everyone &#128515; I'm not your average front-end developer; I'm a tech aficionado on a relentless journey to conquer the ever-evolving realm of web development. In the exhilarating world of bits and pixels, I thrive, always striving to ascend new summits of expertise. 🚀
-
-                Two years into this electrifying journey, my skills have metamorphosed into something formidable, and I'm just getting started. My insatiable appetite for growth fuels my dedication to staying ahead in the dynamic landscape of web development.
-                <br>
-                <span style="background-color: #55bf30;">My mission?</span> It's simple, but important: use your programming prowess as a force for good. I aspire to be a software engineer who rushes in to save people and organizations from technical dilemmas. I believe that every problem has a creative digital solution waiting to be discovered.
-                <br>
-                <span style="background-color: #55bf30;">Now let's talk technology!</span> 💻 When it comes to coding, I prefer HTML5 and CSS3. I can easily handle FLEXBOX and am a devoted follower of the BEM methodology. Creating responsive layouts that not only perform flawlessly, but also dazzle the eye is my job.
+                Hello everyone &#128515; I'm not your average front-end
+                developer; I'm a tech aficionado on a relentless journey to
+                conquer the ever-evolving realm of web development. In the
+                exhilarating world of bits and pixels, I thrive, always striving
+                to ascend new summits of expertise. 🚀 Two years into this
+                electrifying journey, my skills have metamorphosed into
+                something formidable, and I'm just getting started. My
+                insatiable appetite for growth fuels my dedication to staying
+                ahead in the dynamic landscape of web development.
+                <br />
+                <span style="background-color: #55bf30">My mission?</span> It's
+                simple, but important: use your programming prowess as a force
+                for good. I aspire to be a software engineer who rushes in to
+                save people and organizations from technical dilemmas. I believe
+                that every problem has a creative digital solution waiting to be
+                discovered.
+                <br />
+                <span style="background-color: #55bf30"
+                  >Now let's talk technology!</span
+                >
+                💻 When it comes to coding, I prefer HTML5 and CSS3. I can
+                easily handle FLEXBOX and am a devoted follower of the BEM
+                methodology. Creating responsive layouts that not only perform
+                flawlessly, but also dazzle the eye is my job.
               </p>
             </div>
           </div>
@@ -142,51 +167,82 @@
           <div class="main_logo skills_logo">
             <h1 class="title" id="skills1">Skills</h1>
             <div class="services_icon">
-              <img class="skills_icon" src="./images/Icons/html_icon.svg" alt="" />
-              <img class="skills_icon" src="./images/Icons/css_icon.svg" alt="" />
-              <img class="skills_icon" src="./images/Icons/js_icon.svg" alt="" />
+              <img
+                class="skills_icon"
+                src="./images/Icons/html_icon.svg"
+                alt=""
+              />
+              <img
+                class="skills_icon"
+                src="./images/Icons/css_icon.svg"
+                alt=""
+              />
+              <img
+                class="skills_icon"
+                src="./images/Icons/js_icon.svg"
+                alt=""
+              />
             </div>
           </div>
           <!-- ------- Portfolio ------- -->
           <div class="block_portfolio">
             <h1 class="title" id="portfolio1">Portfolio</h1>
             <p class="text_services text_portfolio">
-              Welcome to the world of my creativity! My portfolio represents a variety of projects that I have designed and implemented. Here you will find inspiring websites that reflect my passion for web development and design.
+              Welcome to the world of my creativity! My portfolio represents a
+              variety of projects that I have designed and implemented. Here you
+              will find inspiring websites that reflect my passion for web
+              development and design.
             </p>
             <div class="cards_services">
               <div class="card_porfolio">
-                <img src="./images/FoodDX.png" alt="">
+                <img src="./images/FoodDX.png" alt="" />
                 <h1 class="title_services">FoodDX</h1>
-                <p class="text_services text_portfolio">Discover a unique combination of excellent cuisine and attentive service. Come and enjoy a unique gastronomic experience with us.</p>
-                <a href="https://vlad05x.github.io/FoodDX/" target="_blank">Check web ></a>
+                <p class="text_services text_portfolio">
+                  Discover a unique combination of excellent cuisine and
+                  attentive service. Come and enjoy a unique gastronomic
+                  experience with us.
+                </p>
+                <a href="https://vlad05x.github.io/FoodDX/" target="_blank"
+                  >Check web ></a
+                >
               </div>
               <div class="card_porfolio">
-                <img src="./images/RGym.png" alt="">
+                <img src="./images/RGym.png" alt="" />
                 <h1 class="title_services">RGym</h1>
-                <p class="text_services text_portfolio">Do you want to train?.Join our community and start your journey to health and great shape today!</p>
-                <a href="https://vlad05x.github.io/RGym/" target="_blank">Check web ></a>
+                <p class="text_services text_portfolio">
+                  Do you want to train?.Join our community and start your
+                  journey to health and great shape today!
+                </p>
+                <a href="https://vlad05x.github.io/RGym/" target="_blank"
+                  >Check web ></a
+                >
               </div>
               <div class="card_porfolio">
-                <img src="./images/Site_lyma.png" alt="">
+                <img src="./images/Site_lyma.png" alt="" />
                 <h1 class="title_services">Lyma</h1>
-                <p class="text_services text_portfolio">We offer everything you need to create a unique look and care for your skin. Trust us and enjoy confidence and beauty every day!</p>
-                <a href="https://vlad05x.github.io/Lymo/" target="_blank">Check web ></a>
+                <p class="text_services text_portfolio">
+                  We offer everything you need to create a unique look and care
+                  for your skin. Trust us and enjoy confidence and beauty every
+                  day!
+                </p>
+                <a href="https://vlad05x.github.io/Lymo/" target="_blank"
+                  >Check web ></a
+                >
               </div>
             </div>
           </div>
           <!-- ------- Achievements ------- -->
           <div class="achievements">
             <div class="group_achievements">
-              <img src="./images/star.svg" alt="">
+              <img src="./images/star.svg" alt="" />
               <h1 class="title title_achive">15 National Awards</h1>
             </div>
-            <div class="group_achievements group_achive" >
-              <img src="./images/star.svg" alt="">
-              <h1 class="title title_achive">1500+ Happy
-                Customers</h1>
+            <div class="group_achievements group_achive">
+              <img src="./images/star.svg" alt="" />
+              <h1 class="title title_achive">1500+ Happy Customers</h1>
             </div>
             <div class="group_achievements group_achive">
-              <img src="./images/star.svg" alt="">
+              <img src="./images/star.svg" alt="" />
               <h1 class="title title_achive">15 National Awards</h1>
             </div>
           </div>
@@ -195,21 +251,42 @@
       <footer class="footer">
         <div class="footer__container">
           <div class="footer_content">
-            <img src="./images/logoV.svg" alt="">
+            <img src="./images/logoV.svg" alt="" />
             <h1 class="title" id="contact1">Contact Me</h1>
-            <p class="text_services text_footer"> I am always open to discuss your project, improve your
-              online presence or help with Web-Development</p>
-              <div class="block_social">
-                <a href="https://www.instagram.com/vlad05x/" target="_blank"><img src="./images/Social_media/INSTAGRAM_icon-icons.com_65535.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/vlad-honcharenko-4a003228b/" target="_blank"><img src="./images/Social_media/linkedin-in.svg" alt=""></a>
-                <a href="https://web.telegram.org/a/#1126389838" target="_blank"><img src="./images/Social_media/icons8-телеграмма-app.svg" alt=""></a>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><img src="./images/Social_media/email.svg" alt=""></a>
-              </div>
-              <p class="text_services text_copyright">Created by<span id="Vlad_copyright"> Vlad</span> | All Reserved!</p>
+            <p class="text_services text_footer">
+              I am always open to discuss your project, improve your online
+              presence or help with Web-Development
+            </p>
+            <div class="block_social">
+              <a href="https://www.instagram.com/vlad05x/" target="_blank"
+                ><img
+                  src="./images/Social_media/INSTAGRAM_icon-icons.com_65535.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/vlad-honcharenko-4a003228b/"
+                target="_blank"
+                ><img src="./images/Social_media/linkedin-in.svg" alt=""
+              /></a>
+              <a href="https://web.telegram.org/a/#1126389838" target="_blank"
+                ><img
+                  src="./images/Social_media/icons8-телеграмма-app.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+                target="_blank"
+                ><img src="./images/Social_media/email.svg" alt=""
+              /></a>
+            </div>
+            <p class="text_services text_copyright">
+              Created by<span id="Vlad_copyright"> Vlad</span> | All Reserved!
+            </p>
           </div>
         </div>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
       const menuLinks = document.querySelectorAll(".menu_link");
       const menuButt = document.querySelectorAll(".header_button");
@@ -241,14 +318,23 @@
         anchor.addEventListener("click", function (e) {
           e.preventDefault();
 
-          const targetId = this.getAttribute("href").substring(1); 
-          const targetElement = document.getElementById(targetId); 
+          const targetId = this.getAttribute("href").substring(1);
+          const targetElement = document.getElementById(targetId);
           if (targetElement) {
             targetElement.scrollIntoView({
-              behavior: "smooth", 
+              behavior: "smooth",
             });
           }
         });
+      });
+
+      let typed = new Typed("#typed", {
+        // Тут id того блока, в которм будет анимация
+        stringsElement: "#typed-strings", // Тут id блока из которого берем строки для анимации
+        typeSpeed: 100, // Скорость печати
+        startDelay: 500, // Задержка перед стартом анимации
+        backSpeed: 50, // Скорость удаления
+        loop: true, // Указываем, повторять ли анимацию
       });
     </script>
   </body>
