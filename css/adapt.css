@@ -1,10 +1,12 @@
 @media screen and (max-width: 850px) {
   .burger_menu {
     display: block;
+    position: relative;
+    z-index: 6;
   }
   .menu {
     position: fixed;
-    z-index: 1;
+    z-index: 6;
     top: 0;
     left: 0;
     width: 100%;
@@ -84,17 +86,17 @@
   .achievements {
     width: 100%;
     height: auto;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
   }
-  .group_achive{
-    border-left:0;
+  .group_achive {
+    border-left: 0;
     border-top: 2px solid gray;
     padding-top: 30px;
   }
-  .group_achievements{
+  .group_achievements {
     justify-content: center;
-    align-items:center;
+    align-items: center;
     text-align: center;
   }
 }
@@ -181,7 +183,7 @@
       margin-top: 390px;
     }
   }
-  .text_footer{
+  .text_footer {
     width: auto;
   }
 }

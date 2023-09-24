@@ -48,3 +48,14 @@ var options = {
   loop: true,
 };
 var typed = new Typed("#typed-text", options);
+
+
+const scrollButtUp = document.getElementById("butt_scroll");
+scrollButtUp.addEventListener("click", scrollUp);
+
+function scrollUp(){
+  window.scrollTo({
+    top:0,
+    behavior: "smooth"
+  });
+}
