@@ -281,58 +281,6 @@
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script>
-      const menuLinks = document.querySelectorAll(".menu_link");
-      const menuButt = document.querySelectorAll(".header_button");
-      const menuBtn = document.querySelector(".burger_menu");
-      const menu = document.querySelector(".menu");
-
-      menuBtn.addEventListener("click", () => {
-        menuBtn.classList.toggle("active");
-        menu.classList.toggle("active");
-      });
-
-      function closeMenu() {
-        menuBtn.classList.remove("active");
-        menu.classList.remove("active");
-      }
-
-      menuLinks.forEach((link) => {
-        link.addEventListener("click", () => {
-          closeMenu();
-        });
-      });
-      menuButt.forEach((link) => {
-        link.addEventListener("click", () => {
-          closeMenu();
-        });
-      });
-
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-
-          const targetId = this.getAttribute("href").substring(1);
-          const targetElement = document.getElementById(targetId);
-          if (targetElement) {
-            targetElement.scrollIntoView({
-              behavior: "smooth",
-            });
-          }
-        });
-      });
-
-      var options = {
-        strings: [
-          "Frontend Developer"],
-        typeSpeed: 80, 
-        backSpeed: 25, 
-        startDelay: 1000, 
-        backDelay: 1000, 
-        loop: true, 
-      };
-
-      var typed = new Typed("#typed-text", options);
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
