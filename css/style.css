@@ -271,7 +271,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .page__container .main_about .about_text {
   width: 591px;
