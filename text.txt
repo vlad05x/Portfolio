@@ -1,3 +1,8 @@
+  "homepage": "https://vlad05x.github.io/Portfolio",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+
+
 .main__container {
   display: flex;
   justify-content: center;
