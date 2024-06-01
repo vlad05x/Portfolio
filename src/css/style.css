@@ -410,32 +410,28 @@ body {
   text-align: inherit;
 }
 
-.card_porfolio {
+.card_portfolio {
   width: 389px;
-  height: 500px;
+  height: auto;
   border-radius: 10px;
   padding: 30px 10px;
   text-align: center;
   border: 2px solid #2c7015;
-  -webkit-transition: background 2s, -webkit-box-shadow 0.3s, -webkit-transform 0.6s;
-  transition: background 2s, -webkit-box-shadow 0.3s, -webkit-transform 0.6s;
   transition: background 2s, box-shadow 0.3s, transform 0.6s;
-  transition: background 2s, box-shadow 0.3s, transform 0.6s, -webkit-box-shadow 0.3s, -webkit-transform 0.6s;
 }
-.card_porfolio:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+
+.card_portfolio:hover {
+  transform: translateY(-10px);
   background: linear-gradient(214deg, #55bf30 6.04%, #000 92.95%);
-  -webkit-box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.card_porfolio img {
+.card_portfolio img {
   width: 300px;
   height: auto;
 }
 
-.card_porfolio a:hover {
+.card_portfolio a:hover {
   color: #55bf30;
 }
 

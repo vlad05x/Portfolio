@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:500,600,700);
 
 body {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Poppins;
   height: 100%;
   background: #000;
@@ -74,8 +74,11 @@ $fz: 20px;
   gap: 40px;
   margin-right: 220px;
 }
-.menu_link:hover {
-  color: #55bf30;
+.menu_link {
+  font-size: 16px;
+  &:hover {
+    color: #55bf30;
+  }
 }
 .header_button {
   display: flex;
@@ -86,9 +89,9 @@ $fz: 20px;
   border: 3px solid #2c7015;
   background: linear-gradient(214deg, #55bf30 6.04%, #000 92.95%);
   color: #fff;
-}
-.header_button:hover {
-  background: linear-gradient(115deg, #55bf30 6.04%, #000 92.95%);
+  &:hover {
+    background: linear-gradient(115deg, #55bf30 6.04%, #000 92.95%);
+  }
 }
 
 /*------- Burger Menu -------  */
