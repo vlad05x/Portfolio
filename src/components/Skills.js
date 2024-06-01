@@ -17,8 +17,8 @@ const skillsData = [
 
 function Skills() {
     return (
-        <div class="main_logo skills_logo">
-            <h1 class="title" id="skills1">Skills</h1>
+        <div className="main_logo skills_logo">
+            <h1 className="title" id="skills1">Skills</h1>
              <div className="services_icon">
                 {skillsData.map((skill, index) => (
                     <img key={index} className="skills_icon" src={skill.src} alt={skill.alt}></img>

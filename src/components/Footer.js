@@ -20,7 +20,7 @@ function Footer() {
             presence or help with Web-Development
           </p>
           <div className="block_social">
-            <a href="https://www.instagram.com/vlad05x/" target="_blank">
+            <a href="https://www.instagram.com/vlad05x/" target="_blank" rel="noreferrer">
               <img
                 src={InstaIcon}
                 alt="instalogo"
@@ -28,11 +28,11 @@ function Footer() {
             </a>
             <a
               href="https://www.linkedin.com/in/vlad-honcharenko-4a003228b/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={LinkedinIcon} alt="LinkedinLogo" />
             </a>
-            <a href="https://t.me/vlad05x" target="_blank">
+            <a href="https://t.me/vlad05x" target="_blank" rel="noreferrer">
               <img
                 src={TelegramIcon}
                 alt="Telergamicon"
@@ -40,7 +40,7 @@ function Footer() {
             </a>
             <a
               href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={EmailIcon} alt="emailLogo" />
             </a>

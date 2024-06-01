@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import BurgerMenu from './BurgerMenu';
 import logo from '../images/Logo.svg';
 import '../css/style.scss';
+import "../css/adapt.css"
 
 function Header() {
   const [menuActive, setMenuActive] = useState(false);

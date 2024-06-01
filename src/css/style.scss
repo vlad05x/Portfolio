@@ -38,14 +38,14 @@ body {
   border-radius: 50%;
   padding: 10px 20px;
   cursor: pointer;
-  &:hover{
-    background:#2c7015;
+  &:hover {
+    background: #2c7015;
   }
 }
-#img_arrowup{
+#img_arrowup {
   transform: rotate(268deg);
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   position: relative;
   z-index: 5;
@@ -306,7 +306,7 @@ $fz: 20px;
 .text_portfolio {
   text-align: inherit;
 }
-.card_porfolio {
+.card_portfolio {
   width: 389px;
   height: 500px;
   border-radius: 10px;
@@ -321,7 +321,7 @@ $fz: 20px;
     box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.25);
   }
 }
-.card_porfolio img {
+.card_portfolio img {
   width: 300px;
   height: auto;
 }

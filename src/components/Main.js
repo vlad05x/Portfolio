@@ -67,7 +67,7 @@ function Main() {
             </div>
           </div>
           <div className="main__photo">
-            <img className="photo" src={MyPhoto} alt="Photo" />
+            <img className="photo" src={MyPhoto} alt="MyPhoto" />
           </div>
         </div>
         <div className="media__container">
@@ -85,7 +85,7 @@ function Main() {
         <div className="page__container">
           <div className="main_about">
             <div className="main__photo1">
-              <img className="photo photo1" src={MyPhoto} alt="Photo" />
+              <img className="photo photo1" src={MyPhoto} alt="MyPhoto" />
             </div>
             <div className="About_content">
               <h1 className="title" id="about1">
