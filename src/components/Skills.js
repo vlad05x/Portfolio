@@ -5,6 +5,7 @@ import scssIcon from "../images/Icons/Scss_logo.png";
 import jsIcon from "../images/Icons/js_icon.svg";
 import reactIcon from "../images/Icons/react_logo.svg";
 import gitIcon from "../images/Icons/git-svgrepo-com.svg";
+import TypeScriptIcon from "../images/Icons/typescript.svg"
 
 const skillsData = [
     {src: htmlIcon, alt: "logo-html"},
@@ -12,7 +13,8 @@ const skillsData = [
     {src: scssIcon, alt: "logo-scss"},
     {src: jsIcon, alt: "logo-js"},
     {src: reactIcon, alt: "logo-react"},
-    {src: gitIcon, alt: "logo-git"}
+    {src: gitIcon, alt: "logo-git"},
+    {src: TypeScriptIcon, alt: "logo-typescript"}
 ];
 
 function Skills() {

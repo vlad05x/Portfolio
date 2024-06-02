@@ -11,7 +11,7 @@ const portfolioData = [
   {
     imgSrc: trellotionImg,
     title: "Trellotion",
-    description: "React web application that is in development.",
+    description: "An application that will help you with saving tasks you need to do.",
     link: "https://vlad05x.github.io/Trellotion/",
   },
   {
