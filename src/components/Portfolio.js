@@ -60,7 +60,7 @@ function Portfolio() {
         inspiring websites that reflect my passion for web development and
         design.
       </p>
-      <div className="cards_services">
+      <div className="cards_portfolio">
         {portfolioData.map((project, index) => (
           <div className="card_portfolio" key={index}>
             <img src={project.imgSrc} alt={project.title} style={project.title === "Calculator" ? { width: '200px' } : null} />

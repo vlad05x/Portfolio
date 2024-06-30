@@ -237,6 +237,19 @@
   .services__container .card {
     width: 320px;
   }
+  .card_portfolio {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  .card_portfolio img {
+    width: 100%;
+    height: auto;
+  }
+  .cards_portfolio {
+    flex-direction: column;
+    height: auto;
+  }
 }
 @media screen and (max-width: 330px) {
   .card {
