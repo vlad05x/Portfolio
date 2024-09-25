@@ -308,7 +308,7 @@ $fz: 20px;
 }
 .card_portfolio {
   width: 389px;
-  height: 500px;
+  height: auto;
   border-radius: 10px;
   padding: 30px 10px;
   text-align: center;
@@ -369,6 +369,27 @@ $fz: 20px;
 .title_achive {
   width: 288px;
   font-size: 30px;
+}
+.pagination-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.pagination_btn {
+  width: 100px;
+  height: 50px;
+  background-color: #55bf30;
+  border-radius: 10%;
+  color: black;
+  margin: 10px;
+  padding: 5px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.pagination_btn svg {
+  width: 30px; 
+  height: 30px;
 }
 
 // Footer
