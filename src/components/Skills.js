@@ -6,15 +6,19 @@ import jsIcon from "../images/Icons/js_icon.svg";
 import reactIcon from "../images/Icons/react_logo.svg";
 import gitIcon from "../images/Icons/git-svgrepo-com.svg";
 import TypeScriptIcon from "../images/Icons/typescript.svg"
+import reduxIcon from "../images/Icons/redux-svgrepo-com.svg"
+import nodeLogo from "../images/Icons/node-js-svgrepo-com.svg"
 
 const skillsData = [
+    {src: reactIcon, alt: "logo-react"},
+    {src: jsIcon, alt: "logo-js"},
+    {src: TypeScriptIcon, alt: "logo-typescript"},
+    {src: reduxIcon, alt: "logo-redux"},
+    {src: nodeLogo, alt: "logo-node"},
     {src: htmlIcon, alt: "logo-html"},
     {src: cssIcon, alt: "logo-css"},
     {src: scssIcon, alt: "logo-scss"},
-    {src: jsIcon, alt: "logo-js"},
-    {src: reactIcon, alt: "logo-react"},
     {src: gitIcon, alt: "logo-git"},
-    {src: TypeScriptIcon, alt: "logo-typescript"}
 ];
 
 function Skills() {

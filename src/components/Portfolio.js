@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/style.scss";
+import portfolioBeautyLogo from "../images/../images/portfolio-beauty-logo.png"
 import trellotionImg from "../images/Trellotion-photo.png";
 import foodDXImg from "../images/FoodDX.png";
 import diGiImg from "../images/Di-Gi_img.png";
@@ -14,6 +15,13 @@ import { GrFormPrevious } from "react-icons/gr";
 
 
 const portfolioData = [
+  {
+    imgSrc: portfolioBeautyLogo,
+    title: "Portfolio-beauty",
+    description:
+      "Here you will find works that reflect a unique approach and style.",
+    link: "https://vlad05x.github.io/portfolio-beauty/",
+  },
   {
     imgSrc: trellotionImg,
     title: "Trellotion",
