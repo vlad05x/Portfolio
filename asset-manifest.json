@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.932cd017.css",
-    "main.js": "/Portfolio/static/js/main.8d3e761d.js",
+    "main.js": "/Portfolio/static/js/main.0ef7b32c.js",
     "static/media/Di-Gi_img.png": "/Portfolio/static/media/Di-Gi_img.0c3cc1bdbe1878c0eb5e.png",
     "static/media/RGym.png": "/Portfolio/static/media/RGym.27699231495fd7fab697.png",
     "static/media/LanguageLearning.png": "/Portfolio/static/media/LanguageLearning.4d6ebc33567a5a8d42e6.png",
     "static/media/BasketballMania.png": "/Portfolio/static/media/BasketballMania.b712930abe5e40d4553e.png",
     "static/media/Site_lyma.png": "/Portfolio/static/media/Site_lyma.6e77b944d1f8718eb464.png",
     "static/media/FoodDX.png": "/Portfolio/static/media/FoodDX.8dc42917459651565ffd.png",
+    "static/media/portfolio-beauty-logo.png": "/Portfolio/static/media/portfolio-beauty-logo.3a6b0cd912238d57cee6.png",
     "static/media/Scss_logo.png": "/Portfolio/static/media/Scss_logo.7cdbf6b5889c42b3e490.png",
     "static/media/Trellotion-photo.png": "/Portfolio/static/media/Trellotion-photo.ba9ed76a3f1f4f9b30e8.png",
     "static/media/Photo.jpeg": "/Portfolio/static/media/Photo.6fadf5af1e6e4d75f74d.jpeg",
+    "static/media/node-js-svgrepo-com.svg": "/Portfolio/static/media/node-js-svgrepo-com.4d8b9a0c5a604b6b68d3750273f913d6.svg",
     "static/media/icon_calculator.png": "/Portfolio/static/media/icon_calculator.1b942772d1c85abc06f0.png",
     "static/media/movie-appLogo.png": "/Portfolio/static/media/movie-appLogo.121dad37fad890a6df2c.png",
     "static/media/LinkedIn_Logo_2013 logo.svg": "/Portfolio/static/media/LinkedIn_Logo_2013 logo.98b22d5bb7ffc4e4ae5ab115171b67b6.svg",
     "static/media/github.svg": "/Portfolio/static/media/github.729a2932f8bde7b557ac6a854b31d092.svg",
     "static/media/Logo.svg": "/Portfolio/static/media/Logo.28dea23e5ffb4e05ff35a55b31929ee0.svg",
     "static/media/react_logo.svg": "/Portfolio/static/media/react_logo.9e9c78facb4ac0be2d2880a01982757a.svg",
+    "static/media/redux-svgrepo-com.svg": "/Portfolio/static/media/redux-svgrepo-com.a907b9f98d324503c0c0d9ac2991eb03.svg",
     "static/media/icons8-fiverr.svg": "/Portfolio/static/media/icons8-fiverr.66c61e81e61b4d80daa648e2ebc0c9ac.svg",
     "static/media/INSTAGRAM_icon-icons.com_65535.svg": "/Portfolio/static/media/INSTAGRAM_icon-icons.com_65535.464d172a53c2d597f84dd02c08c905fd.svg",
     "static/media/icons8-upwork.svg": "/Portfolio/static/media/icons8-upwork.6f8d5bc315bc62c941073feca0285a09.svg",
@@ -35,10 +38,10 @@
     "static/media/typescript.svg": "/Portfolio/static/media/typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
     "static/media/logoV.svg": "/Portfolio/static/media/logoV.475822579f62c301f21c230b2999a5a5.svg",
     "main.932cd017.css.map": "/Portfolio/static/css/main.932cd017.css.map",
-    "main.8d3e761d.js.map": "/Portfolio/static/js/main.8d3e761d.js.map"
+    "main.0ef7b32c.js.map": "/Portfolio/static/js/main.0ef7b32c.js.map"
   },
   "entrypoints": [
     "static/css/main.932cd017.css",
-    "static/js/main.8d3e761d.js"
+    "static/js/main.0ef7b32c.js"
   ]
 }
