@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.932cd017.css",
-    "main.js": "/Portfolio/static/js/main.0ef7b32c.js",
+    "main.css": "/Portfolio/static/css/main.7a4ce040.css",
+    "main.js": "/Portfolio/static/js/main.224709ad.js",
     "static/media/Di-Gi_img.png": "/Portfolio/static/media/Di-Gi_img.0c3cc1bdbe1878c0eb5e.png",
     "static/media/RGym.png": "/Portfolio/static/media/RGym.27699231495fd7fab697.png",
     "static/media/LanguageLearning.png": "/Portfolio/static/media/LanguageLearning.4d6ebc33567a5a8d42e6.png",
     "static/media/BasketballMania.png": "/Portfolio/static/media/BasketballMania.b712930abe5e40d4553e.png",
     "static/media/Site_lyma.png": "/Portfolio/static/media/Site_lyma.6e77b944d1f8718eb464.png",
     "static/media/FoodDX.png": "/Portfolio/static/media/FoodDX.8dc42917459651565ffd.png",
+    "static/media/monie-finder.png": "/Portfolio/static/media/monie-finder.f98f409c6c2d780cba16.png",
     "static/media/portfolio-beauty-logo.png": "/Portfolio/static/media/portfolio-beauty-logo.3a6b0cd912238d57cee6.png",
     "static/media/Scss_logo.png": "/Portfolio/static/media/Scss_logo.7cdbf6b5889c42b3e490.png",
     "static/media/Trellotion-photo.png": "/Portfolio/static/media/Trellotion-photo.ba9ed76a3f1f4f9b30e8.png",
@@ -37,11 +38,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/typescript.svg": "/Portfolio/static/media/typescript.5f24f697e9f29c44f3a48af9f4c628d1.svg",
     "static/media/logoV.svg": "/Portfolio/static/media/logoV.475822579f62c301f21c230b2999a5a5.svg",
-    "main.932cd017.css.map": "/Portfolio/static/css/main.932cd017.css.map",
-    "main.0ef7b32c.js.map": "/Portfolio/static/js/main.0ef7b32c.js.map"
+    "main.7a4ce040.css.map": "/Portfolio/static/css/main.7a4ce040.css.map",
+    "main.224709ad.js.map": "/Portfolio/static/js/main.224709ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.932cd017.css",
-    "static/js/main.0ef7b32c.js"
+    "static/css/main.7a4ce040.css",
+    "static/js/main.224709ad.js"
   ]
 }
