@@ -24,13 +24,11 @@ function Main() {
 
     const typed = new Typed(typedElement.current, options);
 
-    // Очищаем анимацию при размонтировании компонента
     return () => {
       typed.destroy();
     };
   }, []);
 
-  // Scroll-Up animation
   function ScrollTop() {
     window.scrollTo({
       top: 0,
@@ -89,40 +87,56 @@ function Main() {
             </div>
             <div className="About_content">
               <h1 className="title" id="about1">
-                About me
+                About Me
               </h1>
               <p className="about_text">
-                Hello everyone &#128515; I'm not your average front-end
-                developer; I'm a tech aficionado on a relentless journey to
-                conquer the ever-evolving realm of web development. In the
-                exhilarating world of bits and pixels, I thrive, always striving
-                to ascend new summits of expertise. 🚀 Two years into this
-                electrifying journey, my skills have metamorphosed into
-                something formidable, and I'm just getting started. My
-                insatiable appetite for growth fuels my dedication to staying
-                ahead in the dynamic landscape of web development.
+                Hello &#128075;, My name is Vlad, and I am an experienced front-end
+                developer with over four years of expertise in web development.
+                For me, development is not just a profession but a passion that
+                drives me to create innovative solutions in the ever-evolving
+                field of web technologies.
                 <br />
                 <span style={{ backgroundColor: "#55bf30" }}>
                   My mission?
                 </span>{" "}
-                It's simple, but important: use your programming prowess as a
-                force for good. I aspire to be a software engineer who rushes in
-                to save people and organizations from technical dilemmas. I
-                believe that every problem has a creative digital solution
-                waiting to be discovered.
+                To deliver high-quality software products while discovering
+                effective digital solutions for diverse challenges. I firmly
+                believe that every technical problem presents an opportunity for
+                creativity and progress.
                 <br />
                 <span style={{ backgroundColor: "#55bf30" }}>
-                  Now let's talk technology!
-                </span>
-                💻 Proficient in HTML5, CSS3, and advanced in React and Git. I
-                effortlessly wield Flexbox, follow the BEM methodology, and
-                craft responsive layouts. With expertise in React, I build
-                dynamic interfaces, while Git ensures smooth version control. My
-                coding combines functionality with visual appeal, pushing the
-                boundaries of technology. Let's create seamlessly together!
+                  Now let’s talk technology!
+                </span>{" "}
+                <br />
+                💻 My key skills include:
+                <ul style={{ margin: "0 0 0 50px" }}>
+                  <li>
+                    Proficiency in{" "}
+                    <strong>React, Redux, JavaScript, and TypeScript</strong>{" "}
+                    for developing modern, dynamic user interfaces.
+                  </li>
+                  <li>
+                    Expertise in <strong>HTML5 and CSS3</strong> for crafting
+                    responsive, cross-browser layouts using Flexbox and the BEM
+                    methodology.
+                  </li>
+                  <li>
+                    Experience in creating{" "}
+                    <strong>dynamic and cross-platform designs</strong> that
+                    ensure exceptional user experiences on any device.
+                  </li>
+                  <li>
+                    Strong knowledge of <strong>Git</strong> for version control
+                    and efficient team collaboration.
+                  </li>
+                </ul>
+                For every project, I strive to merge functionality with visual
+                appeal, delivering solutions that not only perform but also
+                inspire. Let’s build the future together!
               </p>
             </div>
           </div>
+
           <Services />
           <Skills />
           <Portfolio />

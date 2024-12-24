@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../css/style.scss";
+import movieFinder from "../images/monie-finder.png"
 import portfolioBeautyLogo from "../images/../images/portfolio-beauty-logo.png"
 import trellotionImg from "../images/Trellotion-photo.png";
 import foodDXImg from "../images/FoodDX.png";
@@ -13,8 +14,14 @@ import MovieAppLogo from "../images/movie-appLogo.png";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { GrFormPrevious } from "react-icons/gr";
 
-
 const portfolioData = [
+  {
+    imgSrc: movieFinder,
+    title: "Movie-finder",
+    description:
+      "An app that helps you choose a movie to watch by generating random recommendations based on your preferences.",
+    link: "https://vlad05x.github.io/movie-finder/",
+  },
   {
     imgSrc: portfolioBeautyLogo,
     title: "Portfolio-beauty",
